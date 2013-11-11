@@ -5,13 +5,15 @@ A text analyser for plotting sentence meanings against a set criteria of wanted 
 
 For example:
 
-George went on holiday to Dubai in July. [ hot ] He decided to sit in a bath of ice the whole time. [ cold ] When he got home it was snowing. [ cold ] But luckily he was wearing 10 woolen onesies. [ toasty ] His housemate Gregory had cooked him a welcome home meal with 10 ghost peppers. [ hot ]
+Set criteria: Hot, Toasty, Cold
 
-[ hot ] - 2
+George went on holiday to Dubai in July. [ Hot ] He decided to sit in a bath of ice the whole time. [ Cold ] When he got home it was snowing. [ Cold ] But luckily he was wearing 10 woolen onesies. [ Toasty ] His housemate Gregory had cooked him a welcome home meal with 10 ghost peppers. [ Hot ]
 
-[ toasty ] - 1
+[ Hot ] - 2
 
-[ cold ] - 2
+[ Toasty ] - 1
+
+[ Cold ] - 2
 
 
 
