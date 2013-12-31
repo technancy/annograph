@@ -10,4 +10,3 @@ end
 Then(/^I see increase in the 'Hot' meaning$/) do
   expect(@topics).to include('Hot')
 end
-
