@@ -20,10 +20,11 @@ Set criteria: Hot, Toasty, Cold
 
 George went on holiday to Dubai in July. [ Hot ] He decided to sit in a bath of ice the whole time. [ Cold ] When he got home it was snowing. [ Cold ] But luckily he was wearing 10 woolen onesies. [ Toasty ] His housemate Gregory had cooked him a welcome home meal with 10 ghost peppers. [ Hot ]
 
+<code>
 [ Hot ] => 2 ##
 [ Toasty ] => 1 #
 [ Cold ] => 2 #
-
+</code>
 
 
 Extension example:
@@ -36,7 +37,8 @@ The unconditional income in Switzerland means that a third of the GDP would be d
 Opinion B:
 Under unconditional income landlords could raise rent levels to double. [ Economy - ] [ Equality - ] Some buracracy would be eliminated but there would need to be measures put in place to limit rent prices. [ Independance - ] Pilot study results need to be looked at carefully. There is a risk that although people would feel more independance they may have less incentive to do any work at all, and so the Swiss economy would suffer in the long term. [ Economy - ]
 
-
+<code>
  	    # 1 <= [ Economy ][ Economy ] => -2 ##
  	   # 1 <= [ Equality ][ Equality ] => -1 #
    # 1 <= [ Independance ][ Independance ] => -1 #
+</code>
