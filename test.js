@@ -13,3 +13,7 @@ test('I choose the [awesome] label for my highlight', function(){
 function getChunk() {
   return 'This is a great sentence.';
 };
+
+function assignLabel(){
+  return 'awesome'
+};
