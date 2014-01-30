@@ -1,11 +1,11 @@
 var assert = require('assert');
 
-test('When I highlight some text hashOut knows', function(){
+test('storing the chunk of highlighted text', function(){
   var highlight = getChunk();
   assert.equal(highlight, 'This is a great sentence.');
 });
 
-test('I choose the [awesome] label for my highlight', function(){
+test('assigning the [awesome] label for my highlighted chunk', function(){
   var label = assignLabel();
   assert.equal(label, 'awesome');
 });
