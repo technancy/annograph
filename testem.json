@@ -1,0 +1,15 @@
+{
+  "framework": "mocha",
+  "launch_in_dev": [
+    "chrome"
+  ],
+  "src_files": [
+    "tests/*.coffee"
+  ],
+  "serve_files": [
+    "scripts/*.js",
+    "tests/*.js"
+  ],
+  "before_tests": "coffee -c tests/*.coffee",
+  "on_exit": "rm tests/*Test.js"
+}
