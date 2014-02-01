@@ -1,0 +1,45 @@
+.labeler {
+  width: 150px;
+  position: absolute;
+  text-decoration: none;
+  background-color: #AAFFAA;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+#article {
+  padding: 5px;
+  height: 200px;
+  width: 600px;
+  overflow: scroll;
+  font-family: Arial;
+}
+
+.option {
+  cursor: pointer;
+  padding: 5px 0 5px 5px;
+  width: inherit;
+  height: inherit;
+  display:block;
+}
+
+.option:hover {
+  background-color: grey;
+}
+
+.tally {
+    padding: 10px;
+}
+
+.red {
+  background-color: #33aaaa;
+  color: #FFF;
+}
+.green {
+  background-color: green;
+  color: #EEE;
+}
+.yellow {
+  background-color: yellow;
+  color: #000;
+}
