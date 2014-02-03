@@ -4,44 +4,35 @@
   text-decoration: none;
   background-color: #AAFFAA;
   font-family: Arial;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 #article {
   padding: 5px;
   height: 200px;
   width: 600px;
   overflow: scroll;
-  font-family: Arial;
-}
+  font-family: Arial; }
 
 .option {
   cursor: pointer;
   padding: 5px 0 5px 5px;
   width: inherit;
   height: inherit;
-  display:block;
-  
-  &:hover {
-    background-color: grey;
-  }
-}
+  display: block; }
+  .option:hover {
+    background-color: grey; }
 
 .tally {
-  padding: 10px;
-}
+  padding: 10px; }
 
 .red {
   background-color: #33aaaa;
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 .green {
   background-color: green;
-  color: #EEEEEE;
-}
+  color: #EEEEEE; }
 
 .yellow {
   background-color: yellow;
-  color: #000000;
-}
+  color: #000000; }
