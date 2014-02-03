@@ -2,7 +2,7 @@
 
 ##"A highlighter you can make graphs with."
 
-A text analyser for quanitifing subjective values within texts.
+A text annotator for quanitifing subjective values within texts.
 
 Key values within a text can be mapped by assigning one against each sentence or selected words.
 
@@ -24,7 +24,7 @@ Or keep a tally accross a series of texts.
 
 Dream + Dream + Dream + Dream + Dream
 
-
+==============
 For example:
 
 Set criteria: Hot, Toasty, Cold
@@ -38,6 +38,7 @@ George went on holiday to Dubai in July. [ **Hot** ] He decided to sit in a bath
 </code>
 
 
+===============
 Extension example:
 
 Set criteria: Economy, Equality, Independance
@@ -53,3 +54,12 @@ Under unconditional income landlords could raise rent levels to double. [ **Econ
  	   # [ Equality ]--------[ Equality ] - # <br/>
    # [ Independance ][ Independance ] - #
 </code>
+
+================
+User Interface Suggestions:
+
+Ideally there would be 2 selection modes. Freestyle and Sentence.
+
+Freestyle mode would let the user highlight by click-dragging the cursor, and show the tooltip (Labeler) on mouseup. [currently implemented in non-TDD / non-BDD prototype]
+
+Sentence mode would highlight a sentence on rollover and show the tooltip (Labeler) on click.
