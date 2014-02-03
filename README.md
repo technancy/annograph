@@ -15,9 +15,13 @@ A highlight is left behind with a corrosponing key value colour, to get an overa
 
 ##Extension:
 The tally of the results can then be displayed as a graph.
+
 But this tool would become even more useful if you could compare 1 text against another.
+
 Opinion vs Opinion
+
 Or keep a tally accross a series of texts.
+
 Dream + Dream + Dream + Dream + Dream
 
 
