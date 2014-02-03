@@ -1,17 +1,20 @@
-hashOut
+Annograph
 ============
+
+#"A highlighter you can make graphs with."
 
 A text analyser for quanitifing subjective values within texts.
 Key values within a text can be mapped by assigning one against each sentence or selected words.
 Each key value is selected from a pool of set criteria.
+A tally is kept of how many pieces of text were assigned to each key value.
+A highlight is left behind with a corrosponing key value colour, to get an overall sense of how the text evolves between each key value.
 
-Extension:
-The tally of results can then be displayed as a graph.
+##Extension:
+The tally of the results can then be displayed as a graph.
 But this tool would become even more useful if you could compare 1 text against another.
 Opinion vs Opinion
-
-
-"A highlighter you can make graphs with."
+Or keep a tally accross a series of texts.
+Dream + Dream + Dream + Dream + Dream
 
 
 For example:
