@@ -1,7 +1,6 @@
-Annograph
-============
+#Annograph
 
-#"A highlighter you can make graphs with."
+##"A highlighter you can make graphs with."
 
 A text analyser for quanitifing subjective values within texts.
 Key values within a text can be mapped by assigning one against each sentence or selected words.
