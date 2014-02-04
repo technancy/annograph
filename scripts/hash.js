@@ -84,7 +84,7 @@ $(document).ready(function(){
 
           if(!toolTip) {
               toolTip = $('<span>').attr({
-                  id: 'labeler'
+                  id: 'labeller'
               }).html("<div class='option'>Solitude</div><div class='option'>Courage</div><div class='option'>Tradegy</div>").hide();
               $(document.body).append(toolTip);
           }
