@@ -8,13 +8,24 @@
   font-weight: bold;
 }
 
-#article {
-  padding: 5px;
+.article {
+  padding: 10px;
   height: auto;
   width: 600px;
-  overflow: scroll;
+  overflow-y: auto;
+  word-wrap: break-word;
   font-family: Arial;
   padding-bottom: 60px;
+  border: solid 1px #DDD;
+}
+
+.essay {
+  float:left;
+  padding: 10px 0 0 20px;
+}
+
+.graph {
+  margin-top: 20px;
 }
 
 .option {

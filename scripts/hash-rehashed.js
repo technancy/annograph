@@ -122,9 +122,9 @@ var AnnoGraph = (function($) {
 
     applyHighlight: function(classColour) {
         console.log("APPLYing HIGHlight COLOR " + classColour);
-        var saved = document.getElementById("article").innerHTML;
+        var saved = document.getElementById("essay_1").innerHTML;
         var revision = saved.replace(highlight, "<span class='"+ classColour + "'>" + highlight + "</span>");
-        document.getElementById("article").innerHTML = revision;
+        document.getElementById("essay_1").innerHTML = revision;
     },
 
     pickColour: function(num) {
@@ -149,5 +149,6 @@ var AnnoGraph = (function($) {
 }(window.jQuery));
 
 $(document).ready(function() {
-  AnnoGraph.init($("#article"));
+  AnnoGraph.init($("#essay_1"));
+  AnnoGraph.init($("#essay_2"));
 });
