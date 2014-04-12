@@ -1,7 +1,6 @@
 #labeller {
   width: 150px;
   position: absolute;
-  z-index: 9;
   text-decoration: none;
   background-color: #AAFFAA;
   font-family: Arial;
@@ -9,11 +8,10 @@
 
 #article {
   padding: 5px;
-  height: auto;
+  height: 200px;
   width: 600px;
   overflow: scroll;
-  font-family: Arial;
-  padding-bottom: 60px; }
+  font-family: Arial; }
 
 .option {
   cursor: pointer;

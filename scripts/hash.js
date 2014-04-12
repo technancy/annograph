@@ -78,7 +78,7 @@ $(document).ready(function(){
   };
 
   $('#article').mouseup(function(e) {
-      console.log("making tooltip");
+      console.log("making tooltip " + e.type);
       var focus = grabMousedSelection();
       if(focus && (focus = new String(focus).replace(/^\s+|\s+$/g,''))) {
 

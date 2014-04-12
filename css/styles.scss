@@ -1,6 +1,7 @@
 #labeller {
   width: 150px;
   position: absolute;
+  z-index: 9;
   text-decoration: none;
   background-color: #AAFFAA;
   font-family: Arial;
@@ -9,10 +10,11 @@
 
 #article {
   padding: 5px;
-  height: 200px;
+  height: auto;
   width: 600px;
   overflow: scroll;
   font-family: Arial;
+  padding-bottom: 60px;
 }
 
 .option {
@@ -21,7 +23,7 @@
   width: inherit;
   height: inherit;
   display:block;
-  
+
   &:hover {
     background-color: grey;
   }
