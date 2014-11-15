@@ -6,6 +6,15 @@
   background-color: #AAFFAA;
   font-family: Arial;
   font-weight: bold; }
+  
+.labeler {
+  width: 150px;
+  position: absolute;
+  z-index: 9;
+  text-decoration: none;
+  background-color: #AAFFAA;
+  font-family: Arial;
+  font-weight: bold; }
 
 .article {
   padding: 10px;
