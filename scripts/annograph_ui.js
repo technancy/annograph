@@ -44,6 +44,8 @@ var AnnoGraph = (function($){
     };
   };
   
+  // annoyed that git didn't assign the correct username to log this on push
+  
   var it_is_TrueThat = {
     new_hightlight_has_been_selected: function() {
       return (this.highlight && (this.highlight = new String(this.highlight).replace(/^\s+|\s+$/g,'')) )
